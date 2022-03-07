@@ -18,7 +18,7 @@ fun Application.configureRouting() {
 
     routing {
         get("/") {
-            call.respondText("Todo c")
+            call.respondText("Todo Project")
         }
 
         todoRoute()
