@@ -69,7 +69,5 @@ fun Route.todoRoute(){
             call.respond(HttpStatusCode.NotFound, "$todoId id값을 찾지 못했습니다.")
         }
     }
-
-
 }
 
